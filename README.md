@@ -21,13 +21,19 @@ Make sure you have the following installed on your system:
 
 Start by cloning the project repository from GitHub
 
-## Step 2: Install Dependencies
+### Step 2: Install Dependencies
+
 cd frontend
 npm install
 
 cd ../backend
 npm install
 
-### Step 3: Set up Environment Variables
+### Step 4: Import SQL
+
+SQL created for this project can be found in the docs folder.
+
+### Step 5: Set up Environment Variables
+
 DATABASE_URL=postgresql://localhost/easy-itinerary
 PORT=10000
