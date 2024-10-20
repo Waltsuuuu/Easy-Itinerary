@@ -13,8 +13,8 @@ Follow these steps to set up the project on your local machine.
 ### Prerequisites
 
 Make sure you have the following installed on your system:
-- **Node.js** (v16+)
-- **npm** (or yarn, depending on your preference)
+- **Node.js**
+- **npm** 
 - **PostgreSQL** (for the backend database)
 
 ### Step 1: Clone the Repository
