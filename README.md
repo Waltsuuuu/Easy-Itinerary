@@ -31,9 +31,9 @@ npm install
 
 ### Step 4: Import SQL
 
-SQL created for this project can be found in the docs folder.
+Dummy SQL created for this project can be found in the docs folder.
 
 ### Step 5: Set up Environment Variables
 
-DATABASE_URL=postgresql://localhost/easy-itinerary
+DATABASE_URL=postgresql://localhost/easy-itinerary <br/>
 PORT=10000
