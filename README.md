@@ -31,7 +31,7 @@ npm install
 <br/>
 ### Step 4: Import SQL
 
-Dummy SQL created for this project can be found in the docs folder.
+SQL created for this project can be found in the docs folder.
 
 ### Step 5: Set up Environment Variables
 
