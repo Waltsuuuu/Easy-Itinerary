@@ -23,12 +23,12 @@ Start by cloning the project repository from GitHub
 
 ### Step 2: Install Dependencies
 
-cd frontend
+cd frontend <br/>
 npm install
-
-cd ../backend
+<br/>
+cd ../backend <br/>
 npm install
-
+<br/>
 ### Step 4: Import SQL
 
 Dummy SQL created for this project can be found in the docs folder.
