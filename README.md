@@ -3,10 +3,10 @@
 Easy Itinerary is a web application that helps users search for itineraries by country. The application consists of a backend built using Fastify and a frontend built using React, enabling users to explore travel itineraries by country and get specific details for each itinerary.
 
 ## Current Features ✨
-- Country search with smart filtering
-- Display itineraries for a specific country
+- Country search with dynamic filtering
+- Display itineraries for a chosen country
 
-## Getting Started 🚀
+## Try it out! 🚀
 
 Follow these steps to set up the project on your local machine.
 
