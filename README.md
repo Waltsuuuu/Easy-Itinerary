@@ -33,7 +33,7 @@ npm install
 
 SQL created for this project can be found in the docs folder.
 
-### Step 5: Set up Environment Variables
-
+### Step 5: Create .env file in /ei-backend
+add: <br/>
 DATABASE_URL=postgresql://localhost/easy-itinerary <br/>
 PORT=10000
