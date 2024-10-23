@@ -22,11 +22,11 @@ Start by cloning the project repository from GitHub
 
 ### Step 2: Install Dependencies
 
-cd frontend <br/>
+cd ei-frontend <br/>
 npm install
 <br/>
 <br/>
-cd ../backend <br/>
+cd ../ei-backend <br/>
 npm install
 <br/>
 ### Step 4: Import SQL
