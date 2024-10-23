@@ -14,7 +14,7 @@ Follow these steps to set up the project on your local machine.
 
 - **Node.js**
 - **npm** 
-- **PostgreSQL** (for the backend database)
+- **PostgreSQL** 
 
 ### Step 1: Clone the Repository
 
