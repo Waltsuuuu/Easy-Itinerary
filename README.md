@@ -26,6 +26,7 @@ Start by cloning the project repository from GitHub
 cd frontend <br/>
 npm install
 <br/>
+<br/>
 cd ../backend <br/>
 npm install
 <br/>
