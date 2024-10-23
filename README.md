@@ -37,3 +37,7 @@ SQL created for this project can be found in the docs folder.
 add: <br/>
 DATABASE_URL=postgresql://localhost/easy-itinerary <br/>
 PORT=10000
+
+### Step 6: Run dev!
+in /ei-backend and /ei-frontend <br/>
+npm run dev
