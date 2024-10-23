@@ -21,23 +21,23 @@ Follow these steps to set up the project on your local machine.
 
 ### Step 1: Clone the Repository
 
-> Start by cloning the project repository from GitHub
+Start by cloning the project repository from GitHub
 
 ### Step 2: Install Dependencies
 
-> cd ei-frontend <br/>
-> npm install
+cd ei-frontend <br/>
+ npm install
 <br/>
 <br/>   
-> cd ../ei-backend <br/>
-> npm install
+cd ../ei-backend <br/>
+npm install
 <br/>
 ### Step 4: Import SQL
 
-    SQL created for this project can be found in the docs folder.
+SQL created for this project can be found in the docs folder.
 
 ### Step 5: Create .env file in /ei-backend
-add: <br/>
+in .env add the followin: <br/>
 DATABASE_URL=postgresql://localhost/easy-itinerary <br/>
 PORT=10000
 
