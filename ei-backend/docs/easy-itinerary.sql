@@ -269,12 +269,13 @@ INSERT INTO itineraries (users_id, country_id, description, days, nights) VALUES
 (5, 28, 'Visit the diverse wildlife and stunning landscapes of Burundi.', 8, 7),
 (5, 29, 'Explore the beautiful beaches and culture of Cabo Verde.', 5, 4),
 (5, 30, 'Discover the rich history and culture of Cambodia.', 6, 5),
+(5, 59, 'Experience the magical Northern Lights and vibrant cities of Finland.', 10, 9),
 
 (6, 31, 'Experience the unique wildlife and culture of Cameroon.', 7, 6),
 (6, 32, 'Visit the natural beauty and rich culture of Canada.', 10, 9),
 (6, 33, 'Explore the stunning landscapes and history of the Central African Republic.', 8, 7),
 (6, 34, 'Discover the cultural heritage and landscapes of Chad.', 5, 4),
 (6, 35, 'Experience the beautiful nature and culture of Chile.', 7, 6),
-(6, 36, 'Visit the Great Wall and rich culture of China.', 9, 8);
+(6, 36, 'Visit the Great Wall and rich culture of China.', 9, 8),
 (6, 59, 'Explore the beautiful landscapes and culture of Finland.', 5, 4);
 
