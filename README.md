@@ -1,6 +1,6 @@
 # Easy-Itinerary
 
-Easy Itinerary is a web application that helps users search for user created travel itineraries by country. The application consists of a backend built using Fastify and a frontend built using React, enabling users to explore travel itineraries by country and get specific details for each itinerary. 
+Easy Itinerary is a web application that lets users search for user created travel itineraries by country. The application consists of a backend built using Fastify and a frontend built using React, enabling users to explore travel itineraries by country and get specific details for each itinerary. 
 <br/>
 <br/>
 The database features three tables: users, countries, and itineraries. Each itinerary in the itineraries table is linked to a user via the users_id foreign key and to a country via the country_id foreign key. 
@@ -27,17 +27,16 @@ Start by cloning the project repository from GitHub
 
 cd ei-frontend <br/>
  npm install
-<br/>
-<br/>   
+<br/>  
 cd ../ei-backend <br/>
 npm install
 <br/>
 ### Step 4: Import SQL
-
+Create psql database and import sql. <br/>
 SQL created for this project can be found in the docs folder.
 
 ### Step 5: Create .env file in /ei-backend
-in .env add the followin: <br/>
+in .env add the following: <br/>
 DATABASE_URL=postgresql://localhost/easy-itinerary <br/>
 PORT=10000
 
