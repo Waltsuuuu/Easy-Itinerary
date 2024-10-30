@@ -32,7 +32,7 @@ cd ../ei-backend <br/>
 npm install
 <br/>
 ### Step 4: Import SQL
-Create psql database and import sql. <br/>
+Create psql database called easy-itinerary and import sql. <br/>
 SQL created for this project can be found in the docs folder.
 
 ### Step 5: Create .env file in /ei-backend
