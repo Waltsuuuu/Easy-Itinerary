@@ -1,4 +1,4 @@
-CREATEdb easy-itinerary;
+
 
 CREATE TABLE users (
     id BIGINT GENERATED ALWAYS AS IDENTITY,
@@ -26,7 +26,7 @@ CREATE TABLE itineraries (
     FOREIGN KEY (country_id) REFERENCES countries(id)
 );
 
-/* DummyData */
+/* Some Data */
 
 INSERT INTO users (name, email) VALUES 
 ('Alice Smith', 'alice.smith@example.com'),
@@ -276,3 +276,5 @@ INSERT INTO itineraries (users_id, country_id, description, days, nights) VALUES
 (6, 34, 'Discover the cultural heritage and landscapes of Chad.', 5, 4),
 (6, 35, 'Experience the beautiful nature and culture of Chile.', 7, 6),
 (6, 36, 'Visit the Great Wall and rich culture of China.', 9, 8);
+(6, 59, 'Explore the beautiful landscapes and culture of Finland.', 5, 4);
+

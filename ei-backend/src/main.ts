@@ -20,7 +20,7 @@ app.get("/users", async (req, res) => {
     res.send(result);
 });
 
-/* FETCHES COUNTRIES (to find country id) */
+/* (to find country id) */
 app.get("/countries", async (req, res) => {
     const result = await db
         .selectFrom('countries')
@@ -44,7 +44,7 @@ app.get<{
         country: string 
     };
 }>('/itineraries/:country', async (req, res) => {
-    const countryName = req.params.country; 
+    const countryName = req.params.country
   
     try {
       const itineraries = await db
@@ -59,7 +59,7 @@ app.get<{
           'itineraries.days',
           'itineraries.nights',
         ])
-        .where('countries.name', '=', countryName) 
+        .where('countries.name', '=', countryName)
         .execute();
         
         res.send(itineraries);
