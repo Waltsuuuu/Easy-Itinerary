@@ -1,0 +1,19 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.itinerary-card{
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.itinerary-description {
+    font-weight: bold;
+}

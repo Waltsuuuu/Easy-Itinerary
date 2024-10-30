@@ -9,12 +9,13 @@ const ItineraryDisplay = ({ itineraries, selectedCountry }) => {
 
       <div>
         {itineraries.map((itinerary, index) => (
-          <div key={index}>
-            <p>{itinerary.description}</p>
+          <div key={index} className="itinerary-card">
+            <p className="itinerary-description">{itinerary.description}</p>
             <p>
               Trip Duration: {itinerary.days} days - {itinerary.nights} nights
             </p>
             <p>Created by: {itinerary.user_name}</p>
+            <button className="view-itinerary-button">View Itinerary</button>
           </div>
         ))}
       </div>

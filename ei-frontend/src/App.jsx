@@ -4,6 +4,7 @@ import CountrySeach from "./Components/CountrySearch";
 import ItineraryDisplay from "./Components/ItineraryDisplay";
 import CountryFilter from "./Components/CountryFilter";
 import HomeDisplay from "./Components/HomeDisplay";
+import "./App.css";
 
 function App() {
   const [userQuery, setUserQuery] = useState(""); // user input
